@@ -16,8 +16,6 @@ spec:
         - name: dollyapi-container
           image: comprcompr/arash:latest # Use your Docker image name has to have tag name sorry 
           resources:
-           requests:
-            memory: "10Gi"
           ports:
             - containerPort: 8000 # Use the internal port of your application
           env:
