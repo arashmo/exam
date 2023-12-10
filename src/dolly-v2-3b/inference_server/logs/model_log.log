@@ -1,0 +1,386 @@
+2023-12-08T01:20:03,542 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=121
+2023-12-08T01:20:03,562 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T01:20:03,652 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T01:20:03,662 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]121
+2023-12-08T01:20:03,694 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T01:20:03,695 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T01:20:03,778 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T01:20:03,925 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - model_name: mymodel, batchSize: 1
+2023-12-08T01:20:10,850 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Your torch version is 1.13.1+cu117 which does not support torch.compile
+2023-12-08T01:20:10,850 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - proceeding without onnxruntime
+2023-12-08T01:20:10,858 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch TensorRT not enabled
+2023-12-08T01:22:22,403 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=192
+2023-12-08T01:22:22,413 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T01:22:22,489 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T01:22:22,498 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]192
+2023-12-08T01:22:22,499 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T01:22:22,499 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T01:22:22,527 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T01:22:31,524 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=200
+2023-12-08T01:22:31,526 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T01:22:31,611 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T01:22:31,612 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]200
+2023-12-08T01:22:31,612 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T01:22:31,621 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T01:22:41,680 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=208
+2023-12-08T01:22:41,690 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T01:22:41,774 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T01:22:41,775 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]208
+2023-12-08T01:22:41,783 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T01:22:41,784 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T01:22:41,820 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T01:22:53,825 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=216
+2023-12-08T01:22:53,843 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T01:22:53,913 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T01:22:53,914 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]216
+2023-12-08T01:22:53,914 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T01:22:53,922 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T01:22:53,923 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T01:23:08,775 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=226
+2023-12-08T01:23:08,784 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T01:23:08,866 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T01:23:08,875 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]226
+2023-12-08T01:23:08,875 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T01:23:08,875 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T01:23:08,884 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T01:23:28,968 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=235
+2023-12-08T01:23:28,969 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T01:23:29,048 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T01:23:29,049 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]235
+2023-12-08T01:23:29,058 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T01:23:29,058 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T01:23:57,018 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=243
+2023-12-08T01:23:57,029 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T01:23:57,108 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T01:23:57,109 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]243
+2023-12-08T01:23:57,109 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T01:23:57,119 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T01:23:57,120 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T01:24:37,950 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=251
+2023-12-08T01:24:37,961 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T01:24:38,047 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T01:24:38,056 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]251
+2023-12-08T01:24:38,057 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T01:24:38,076 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T01:24:38,086 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T01:25:39,888 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=259
+2023-12-08T01:25:39,897 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T01:25:39,985 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T01:25:39,994 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]259
+2023-12-08T01:25:39,995 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T01:25:40,015 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T01:25:40,016 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T01:27:15,938 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=268
+2023-12-08T01:27:15,939 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T01:27:16,008 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T01:27:16,009 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]268
+2023-12-08T01:27:16,027 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T01:27:16,027 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T01:27:16,028 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T15:57:55,430 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2102
+2023-12-08T15:57:55,438 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T15:57:55,515 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T15:57:55,524 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2102
+2023-12-08T15:57:55,534 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T15:57:55,534 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T15:57:55,652 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T15:57:55,862 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - model_name: mymodel, batchSize: 1
+2023-12-08T15:58:01,822 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Your torch version is 1.13.1+cu117 which does not support torch.compile
+2023-12-08T15:58:01,839 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - proceeding without onnxruntime
+2023-12-08T15:58:01,840 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch TensorRT not enabled
+2023-12-08T15:58:02,430 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Backend worker process died.
+2023-12-08T15:58:02,430 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2023-12-08T15:58:02,431 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_service_worker.py", line 258, in <module>
+2023-12-08T15:58:02,439 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     worker.run_server()
+2023-12-08T15:58:02,439 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_service_worker.py", line 226, in run_server
+2023-12-08T15:58:02,439 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2023-12-08T15:58:02,440 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in handle_connection
+2023-12-08T15:58:02,458 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2023-12-08T15:58:02,458 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_service_worker.py", line 131, in load_model
+2023-12-08T15:58:02,459 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     service = model_loader.load(
+2023-12-08T15:58:02,468 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_loader.py", line 135, in load
+2023-12-08T15:58:02,468 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2023-12-08T15:58:02,468 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/tmp/models/d64f117c091042179c490247244e789f/llm_handler2.py", line 28, in initialize
+2023-12-08T15:58:02,469 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     self.model = AutoModelForCausalLM.from_pretrained(
+2023-12-08T15:58:02,469 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/models/auto/auto_factory.py", line 526, in from_pretrained
+2023-12-08T15:58:02,469 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     config, kwargs = AutoConfig.from_pretrained(
+2023-12-08T15:58:02,469 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in from_pretrained
+2023-12-08T15:58:02,469 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+2023-12-08T15:58:02,469 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/configuration_utils.py", line 622, in get_config_dict
+2023-12-08T15:58:02,469 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+2023-12-08T15:58:02,470 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/configuration_utils.py", line 677, in _get_config_dict
+2023-12-08T15:58:02,500 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     resolved_config_file = cached_file(
+2023-12-08T15:58:02,527 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/utils/hub.py", line 401, in cached_file
+2023-12-08T15:58:02,527 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     raise EnvironmentError(
+2023-12-08T15:58:02,527 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - OSError: /tmp/models/d64f117c091042179c490247244e789f does not appear to have a file named config.json. Checkout 'https://huggingface.co//tmp/models/d64f117c091042179c490247244e789f/None' for available files.
+2023-12-08T15:58:10,573 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2120
+2023-12-08T15:58:10,583 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T15:58:10,661 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T15:58:10,662 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2120
+2023-12-08T15:58:10,672 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T15:58:10,672 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T15:58:18,455 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2128
+2023-12-08T15:58:18,474 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T15:58:18,543 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T15:58:18,544 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2128
+2023-12-08T15:58:18,545 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T15:58:18,545 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T15:58:18,563 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T15:58:27,314 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2136
+2023-12-08T15:58:27,324 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T15:58:27,414 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T15:58:27,414 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2136
+2023-12-08T15:58:27,434 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T15:58:27,434 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T15:58:27,454 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T15:58:37,093 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2144
+2023-12-08T15:58:37,113 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T15:58:37,172 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T15:58:37,173 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2144
+2023-12-08T15:58:37,182 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T15:58:37,182 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T15:58:37,202 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T15:58:48,853 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2154
+2023-12-08T15:58:48,854 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T15:58:48,932 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T15:58:48,933 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2154
+2023-12-08T15:58:48,933 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T15:58:48,941 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T15:58:48,946 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T15:59:03,740 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2162
+2023-12-08T15:59:03,757 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T15:59:03,822 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T15:59:03,831 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2162
+2023-12-08T15:59:03,832 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T15:59:03,840 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T15:59:03,901 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T15:59:23,849 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2170
+2023-12-08T15:59:23,858 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T15:59:23,947 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T15:59:23,948 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2170
+2023-12-08T15:59:23,948 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T15:59:23,948 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T15:59:51,879 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2178
+2023-12-08T15:59:51,898 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T15:59:51,955 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T15:59:51,957 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2178
+2023-12-08T15:59:51,977 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T15:59:51,986 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:09:39,736 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2244
+2023-12-08T16:09:39,750 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:09:39,816 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:09:39,817 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2244
+2023-12-08T16:09:39,826 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:09:39,826 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:09:39,956 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:09:40,194 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - model_name: mymodel, batchSize: 1
+2023-12-08T16:09:46,958 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Your torch version is 1.13.1+cu117 which does not support torch.compile
+2023-12-08T16:09:46,958 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - proceeding without onnxruntime
+2023-12-08T16:09:46,959 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch TensorRT not enabled
+2023-12-08T16:09:47,707 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Backend worker process died.
+2023-12-08T16:09:47,708 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2023-12-08T16:09:47,708 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_service_worker.py", line 258, in <module>
+2023-12-08T16:09:47,708 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     worker.run_server()
+2023-12-08T16:09:47,708 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_service_worker.py", line 226, in run_server
+2023-12-08T16:09:47,708 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2023-12-08T16:09:47,708 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in handle_connection
+2023-12-08T16:09:47,709 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2023-12-08T16:09:47,719 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_service_worker.py", line 131, in load_model
+2023-12-08T16:09:47,737 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     service = model_loader.load(
+2023-12-08T16:09:47,737 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_loader.py", line 135, in load
+2023-12-08T16:09:47,737 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2023-12-08T16:09:47,756 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/tmp/models/60fb9d8f556c4d1d86a2d660009e817e/llm_handler2.py", line 28, in initialize
+2023-12-08T16:09:47,756 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     self.model = AutoModelForCausalLM.from_pretrained(
+2023-12-08T16:09:47,756 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/models/auto/auto_factory.py", line 526, in from_pretrained
+2023-12-08T16:09:47,756 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     config, kwargs = AutoConfig.from_pretrained(
+2023-12-08T16:09:47,756 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in from_pretrained
+2023-12-08T16:09:47,774 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+2023-12-08T16:09:47,775 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/configuration_utils.py", line 622, in get_config_dict
+2023-12-08T16:09:47,775 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+2023-12-08T16:09:47,775 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/configuration_utils.py", line 677, in _get_config_dict
+2023-12-08T16:09:47,775 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     resolved_config_file = cached_file(
+2023-12-08T16:09:47,776 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/utils/hub.py", line 401, in cached_file
+2023-12-08T16:09:47,794 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     raise EnvironmentError(
+2023-12-08T16:09:47,794 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - OSError: /tmp/models/60fb9d8f556c4d1d86a2d660009e817e does not appear to have a file named config.json. Checkout 'https://huggingface.co//tmp/models/60fb9d8f556c4d1d86a2d660009e817e/None' for available files.
+2023-12-08T16:09:56,256 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2261
+2023-12-08T16:09:56,266 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:09:56,356 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:09:56,365 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2261
+2023-12-08T16:09:56,365 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:09:56,377 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:09:56,385 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:10:04,108 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2269
+2023-12-08T16:10:04,112 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:10:04,176 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:10:04,177 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2269
+2023-12-08T16:10:04,186 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:10:04,186 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:10:04,196 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:10:13,067 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2277
+2023-12-08T16:10:13,069 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:10:13,147 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:10:13,148 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2277
+2023-12-08T16:10:13,148 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:10:13,157 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:10:13,196 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:10:23,140 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2285
+2023-12-08T16:10:23,150 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:10:23,236 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:10:23,238 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2285
+2023-12-08T16:10:23,256 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:10:23,257 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:10:23,267 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:10:35,001 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2293
+2023-12-08T16:10:35,002 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:10:35,091 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:10:35,091 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2293
+2023-12-08T16:10:35,092 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:10:35,092 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:10:35,111 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:10:49,880 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2303
+2023-12-08T16:10:49,881 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:10:49,967 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:10:49,968 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2303
+2023-12-08T16:10:49,969 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:10:49,969 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:11:09,682 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2311
+2023-12-08T16:11:09,691 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:11:09,762 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:11:09,771 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2311
+2023-12-08T16:11:09,772 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:11:09,781 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:11:09,791 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:11:37,620 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2319
+2023-12-08T16:11:37,630 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:11:37,710 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:11:37,720 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2319
+2023-12-08T16:11:37,730 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:11:37,739 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:12:18,599 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2327
+2023-12-08T16:12:18,608 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:12:18,688 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:12:18,697 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2327
+2023-12-08T16:12:18,697 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:12:18,698 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:12:18,707 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:13:20,420 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2334
+2023-12-08T16:13:20,438 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:13:20,506 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:13:20,507 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2334
+2023-12-08T16:13:20,507 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:13:20,516 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:14:56,341 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2342
+2023-12-08T16:14:56,350 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:14:56,460 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:14:56,461 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2342
+2023-12-08T16:14:56,470 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:14:56,470 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:14:56,470 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:27:02,259 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2407
+2023-12-08T16:27:02,288 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:27:02,386 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:27:02,395 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2407
+2023-12-08T16:27:02,396 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:27:02,405 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:27:02,482 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:27:02,772 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - model_name: mymodel, batchSize: 1
+2023-12-08T16:27:06,115 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Your torch version is 1.13.1+cu117 which does not support torch.compile
+2023-12-08T16:27:06,116 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - proceeding without onnxruntime
+2023-12-08T16:27:06,116 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch TensorRT not enabled
+2023-12-08T16:27:06,601 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Backend worker process died.
+2023-12-08T16:27:06,601 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2023-12-08T16:27:06,602 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_service_worker.py", line 258, in <module>
+2023-12-08T16:27:06,610 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     worker.run_server()
+2023-12-08T16:27:06,610 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_service_worker.py", line 226, in run_server
+2023-12-08T16:27:06,610 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2023-12-08T16:27:06,610 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in handle_connection
+2023-12-08T16:27:06,611 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2023-12-08T16:27:06,611 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_service_worker.py", line 131, in load_model
+2023-12-08T16:27:06,611 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     service = model_loader.load(
+2023-12-08T16:27:06,611 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/ts/model_loader.py", line 135, in load
+2023-12-08T16:27:06,611 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2023-12-08T16:27:06,629 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/tmp/models/c4058286415d4a5fb7ab709bddb04323/llm_handler2.py", line 28, in initialize
+2023-12-08T16:27:06,630 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     self.model = AutoModelForCausalLM.from_pretrained(
+2023-12-08T16:27:06,630 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/models/auto/auto_factory.py", line 526, in from_pretrained
+2023-12-08T16:27:06,630 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     config, kwargs = AutoConfig.from_pretrained(
+2023-12-08T16:27:06,631 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in from_pretrained
+2023-12-08T16:27:06,631 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+2023-12-08T16:27:06,631 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/configuration_utils.py", line 622, in get_config_dict
+2023-12-08T16:27:06,631 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+2023-12-08T16:27:06,631 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/configuration_utils.py", line 677, in _get_config_dict
+2023-12-08T16:27:06,639 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     resolved_config_file = cached_file(
+2023-12-08T16:27:06,640 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -   File "/usr/local/lib/python3.8/site-packages/transformers/utils/hub.py", line 401, in cached_file
+2023-12-08T16:27:06,648 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG -     raise EnvironmentError(
+2023-12-08T16:27:06,659 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - OSError: /tmp/models/c4058286415d4a5fb7ab709bddb04323 does not appear to have a file named config.json. Checkout 'https://huggingface.co//tmp/models/c4058286415d4a5fb7ab709bddb04323/None' for available files.
+2023-12-08T16:27:14,806 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2425
+2023-12-08T16:27:14,815 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:27:14,904 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:27:14,914 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2425
+2023-12-08T16:27:14,915 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:27:14,998 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:27:22,875 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2433
+2023-12-08T16:27:22,885 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:27:22,972 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:27:22,973 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2433
+2023-12-08T16:27:22,982 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:27:22,982 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:27:31,795 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2441
+2023-12-08T16:27:31,807 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:27:31,882 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:27:31,883 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2441
+2023-12-08T16:27:31,883 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:27:31,883 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:27:31,902 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:27:41,703 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2449
+2023-12-08T16:27:41,704 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:27:41,782 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:27:41,782 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2449
+2023-12-08T16:27:41,783 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:27:41,783 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:27:41,821 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:27:53,580 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2457
+2023-12-08T16:27:53,589 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:27:53,659 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:27:53,668 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2457
+2023-12-08T16:27:53,669 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:27:53,669 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:27:53,689 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:28:08,562 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2468
+2023-12-08T16:28:08,581 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:28:08,650 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:28:08,661 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2468
+2023-12-08T16:28:08,661 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:28:08,671 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:28:08,690 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:28:28,493 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2476
+2023-12-08T16:28:28,502 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:28:28,580 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:28:28,591 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2476
+2023-12-08T16:28:28,591 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:28:56,302 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2484
+2023-12-08T16:28:56,322 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:28:56,408 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:28:56,410 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2484
+2023-12-08T16:28:56,420 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:28:56,437 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:29:37,272 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2491
+2023-12-08T16:29:37,273 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:29:37,353 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:29:37,353 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2491
+2023-12-08T16:29:37,362 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:29:37,362 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:29:37,372 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:30:39,211 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2499
+2023-12-08T16:30:39,221 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:30:39,290 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:30:39,290 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2499
+2023-12-08T16:30:39,291 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:30:39,291 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:30:39,315 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-12-08T16:32:15,166 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2507
+2023-12-08T16:32:15,175 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-12-08T16:32:15,253 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.8/site-packages/ts/configs/metrics.yaml.
+2023-12-08T16:32:15,253 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - [PID]2507
+2023-12-08T16:32:15,260 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Torch worker started.
+2023-12-08T16:32:15,260 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Python runtime: 3.8.18
+2023-12-08T16:32:15,270 [INFO ] W-9000-mymodel_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.

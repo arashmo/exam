@@ -1,0 +1,10 @@
+###
+copy tokenzier to the model, the special_toknizer .... and modelconfig
+torch-model-archiver --model-name mymodel --version 1.0 --serialized-file /model/model_dev/pytorch_model/pytorch_model.bin --handler llm_handler
+  --export-path /model/model_dev/pytorch_model/q
+--start --ts-config 
+
+
+  # model_archiver will be function torch-model-archiver --model-name mymodel --version 1.0 --serialized-file /model/model_dev/pytorch_model/pytorch_model.bin --handler llm_handler  --export-path /model/model_dev/pytorch_model/
+root@hiring-4:/src/app# 
+
