@@ -1,0 +1,5 @@
+resources:
+- deployment.yaml
+- azurefile-csi-premium-pvc.yaml
+- ingress.yaml
+- service.yaml

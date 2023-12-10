@@ -1,0 +1,8 @@
+resources:
+  - ../../base
+
+patchesStrategicMerge:
+  - image_patch.yaml
+  - resource_patch.yaml
+  - env_patch.yaml
+  - pvc_dev.yaml
