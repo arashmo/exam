@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dollyapi-deployment
+spec:
+  replicas: 1 # Adjust the number of replicas as needed
+  selector:
+    matchLabels:
+      app: dollyapi
+  template:
+    metadata:
+      labels:
+        app: dollyapi
+    spec:
+      containers:
+        - name: dollyapi-container
+          image: comprcompr/arash:latest # Use your Docker image name has to have tag name sorry 
+          resources:
+           requests:
+            memory: "10Gi"
+          ports:
+            - containerPort: 8000 # Use the internal port of your application
+          env:
+            - name: BIN_MODEL_PATH # the env that the app looks after
+              value: "/model/model_dev/pytorch_model" # the location where model binary exist and its json config file 
+            - name : BIN_MODEL_NAME
+              value: pytorch_model.bin
+          volumeMounts:
+            - name: model-data
+              mountPath: "/model" # the volume will be presend as /model inside the ctr
+      volumes:
+        - name: model-data
+          persistentVolumeClaim:
+            claimName: my-model-pv # my model PV will be here 
