@@ -19,3 +19,7 @@ module "kubernetes" {
   resource_group_name = var.resource_group_name # will be over written by local folder 
 }
 
+module "kustomize_deployment" {
+  source = "./modules/kustomize_deployment"
+  kustomize_directory = "${path.root}/kustomize/"
+}

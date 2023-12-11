@@ -1,4 +1,4 @@
-.PHONY: help build-dev-docker
+.PHONY: help,build-dev-docker
 BUILD_LOG = build.log
 define log_build
 	@echo "$(1) on $(shell date)" >> $(BUILD_LOG)
@@ -12,7 +12,7 @@ help:
 	@echo "  deploy                         - Buildild and Deploy using kustomize."
 	@echo "  all      - Run build, run, and deploy targets."
 
-#
+
 
 # Docker build targets
 build-dev-docker :

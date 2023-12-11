@@ -15,8 +15,8 @@ RUN mkdir /root/.ssh && \
 
 # Print the public key when the container starts
 # Define default command (optional)
+
 RUN --mount=type=bind,target=/model,source=/path/on/host/machine 
 WORKDIR /model/
 RUN [ ! -f pytorch_model.bin ] && curl -o pytorch_model.bin https://huggingface.co/databricks/dolly-v2-3b/resolve/main/pytorch_model.bin 
- 
 CMD cat /root/.ssh/public_key && tail -f /dev/null
