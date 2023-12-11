@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dollyapi-dev-app
+spec:
+  selector:
+    matchLabels:
+      app: dollyapi-dev-app
+  template:
+    metadata:
+      labels:
+        app: dollyapi-dev-app
+    spec:
+      containers:
+      - name: dollyapi-container
+        image: placeholder-image  # Placeholder image
+        ports:
+        - containerPort: 22  # Placeholder port
+        env:
+          - name:  ENV_VAR
+            valueFrom:
+              secretKeyRef:
+                name:  name
+                key:  key
