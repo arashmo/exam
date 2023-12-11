@@ -1,8 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
 resources:
-  - ../../base
-
-patchesStrategicMerge:
-  - image_patch.yaml
-  - resource_patch.yaml
-  - env_patch.yaml
-  - pvc_dev.yaml
+- ../../base
+- namespace.yaml
+- dolly-devapp.yaml
+- pvc_dev.yaml
+patches:
+- path: dev-namespace.yaml
+  target:
+    kind: Namespace
+    name: dev-namespace
+- path: env_patch.yaml
+- path: pvc_dev.yaml
