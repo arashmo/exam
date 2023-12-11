@@ -18,7 +18,7 @@ help:
 build-dev-docker:
 	@if ! grep -q "build-dev-docker" $(BUILD_LOG); then \
 		echo "Building Docker image for developer..."; \
-		cd docker/developer && ./docker-build.sh && \
+		 cd ./docker/developer && ./docker-build.sh && \
 		$(call log_build,"build-dev-docker"); \
 	else \
 		echo "Docker image for developer already built. Skipping..."; \
