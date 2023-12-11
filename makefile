@@ -26,5 +26,13 @@ build-dev-docker:
 
 build-product-docker:
 	@echo "Building Docker image for Service 2..."
+	@if ! grep -q "build-production-docker" $(BUILD_LOG); then \
+		echo "Building Docker image for developer..."; \
+		 cd ./docker/production && ./docker-build.sh && \
+		$(call log_build,"build-production-docker"); \
+	else \
+		echo "Docker image for developer already built. Skipping..."; \
+	fi
+	
 
 	
