@@ -12,6 +12,7 @@ help:
 	@echo "  build-dev-docker               - Build the Docker image using the script in the docker folder."
 	@echo "  local_production-docker        - Run necessary scripts, your local machine will install necessary resources."
 	@echo "  deploy                         - Build and Deploy using kustomize."
+	@echo "build-dev-local "				- Build and deploy the inside a conda environment 
 	@echo "  all                            - Run build, run, and deploy targets."
 
 # Docker build targets
@@ -33,6 +34,6 @@ build-product-docker:
 	else \
 		echo "Docker image for developer already built. Skipping..."; \
 	fi
-	
+
 
 	
