@@ -2,29 +2,34 @@ import os
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, TextGenerationPipeline
 from ts.torch_handler.base_handler import BaseHandler
+import re
 
 class LLMHandler(BaseHandler):
     def __init__(self):
         super(LLMHandler, self).__init__()
         self.initialized = False
 
-    def initialize(self, context):
-        # Retrieve model directory from properties if set, otherwise use environment variables
-        properties = context.system_properties
-        model_dir = properties.get("model_dir", os.environ.get('BIN_MODEL_PATH'))
-        local_model_name = os.environ.get('BIN_MODEL_NAME')
+def initialize(self, context):
+    # Retrieve model directory from properties if set, otherwise use environment variables
+    properties = context.system_properties
+    model_dir = properties.get("model_dir", os.environ.get('BIN_MODEL_PATH'))
+    local_model_name = os.environ.get('BIN_MODEL_NAME')
 
-        if not model_dir:
-            raise EnvironmentError("BIN_MODEL_PATH environment variable not set.")
-        if not local_model_name:
-            raise EnvironmentError("BIN_MODEL_NAME environment variable not set.")
+    if not model_dir:
+        raise EnvironmentError("BIN_MODEL_PATH environment variable not set.")
+    if not local_model_name:
+        raise EnvironmentError("BIN_MODEL_NAME environment variable not set.")
 
-        model_bin_path = os.path.join(model_dir, local_model_name)
-        if not os.path.exists(model_bin_path):
-            raise FileNotFoundError(f"{model_bin_path} does not exist.")
+    model_bin_path = os.path.join(model_dir, local_model_name)
+    if not os.path.exists(model_bin_path):
+        print(f"{model_bin_path} does not exist. Downloading the model...")
+        # Convert hyphens to slashes in the model name
+        model_name_with_slashes = re.sub(r'-', '/', local_model_name)
+        self.model = AutoModelForCausalLM.from_pretrained(local_model_name)
+        self.model.save_pretrained(model_dir)
+        os.rename(os.path.join(model_dir, 'pytorch_model.bin'), os.path.join(model_dir, local_model_name))
 
-        current_directory = os.path.dirname(os.path.abspath(__file__))
-        self.tokenizer = AutoTokenizer.from_pretrained(model_dir, padding_side="left")
+    else:
         self.model = AutoModelForCausalLM.from_pretrained(
             model_dir, 
             local_files_only=True, 
@@ -32,8 +37,12 @@ class LLMHandler(BaseHandler):
             torch_dtype=torch.bfloat16
         )
 
-        self.pipeline = TextGenerationPipeline(model=self.model, tokenizer=self.tokenizer)
-        self.initialized = True
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    self.tokenizer = AutoTokenizer.from_pretrained(model_dir, padding_side="left")
+
+    self.pipeline = TextGenerationPipeline(model=self.model, tokenizer=self.tokenizer)
+    self.initialized = True
+  
 
     def preprocess(self, data):
         # Assuming the instruction is sent as a part of the request
@@ -61,7 +70,6 @@ if __name__ == "__main__":
             self.system_properties = {
                 "model_dir": "/model/model_dev/pytorch_model"  # Set this to the path of your model directory
             }
-
     # Create a mock context and initialize the handler
     mock_context = MockContext()
     handler.initialize(mock_context)

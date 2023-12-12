@@ -9,6 +9,7 @@ RUN apt update && apt install openjdk-17-jdk -y
 # RUN git lfs install
 WORKDIR /src/app
 COPY $SOURCE_DIR /src/app/
+ENV SOURCE_DIR=$SOURCE_DIR
 # Install any needed packages specified in requirements.txt
 #RUN  pip install --upgrade pip && \
 RUN pip install --no-cache-dir -r requirements.txt
